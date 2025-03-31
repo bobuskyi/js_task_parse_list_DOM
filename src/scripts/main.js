@@ -29,4 +29,7 @@ function getEmployees(list) {
 }
 
 sortList(documentList);
-getEmployees(documentList);
+
+const employees = getEmployees(documentList);
+
+employees.sort();
