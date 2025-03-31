@@ -30,6 +30,4 @@ function getEmployees(list) {
 
 sortList(documentList);
 
-const employees = getEmployees(documentList);
-
-employees.sort();
+getEmployees(documentList);
